@@ -1,0 +1,21 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    font-family: Stencil Std, fantasy;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2827;
+    color: #98FB98;
+}
+
+#snake {
+    margin-top: 1.5em;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+    
+   box-shadow: 15px -10px 3px #000;
+   -webkit-box-shadow: 15px -10px 3px #98FB98;
+   -moz-box-shadow: 15px -10px 3px #98FB98;
+}
